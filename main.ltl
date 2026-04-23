@@ -1,0 +1,15 @@
+// ltl-protobuf-lite/main.ltl
+//
+// Protocol-buffer wire-format encoder / decoder (proto3).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-protobuf-lite v0.1.0")
+    io::println("Protocol-buffer wire-format encoder / decoder (proto3).")
+    0
+}
